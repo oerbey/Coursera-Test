@@ -11,13 +11,17 @@
 		div#container {
 			background: gray;
 			position: relative;
-			border: solid gray 5px;
+			border-top: black solid 3px;
+			border-right: black solid 3px;
+			border-left: black solid 3px;
 			margin-left: auto;
 			margin-right: auto;
 		}
 
 		p {
-			border: none;
+			border-left: black solid 3px;
+			border-right: black solid 3px;
+			border-bottom: black solid 3px;
 			padding: 10px;
 			background-color: grey;
 			width: 100%;
@@ -38,6 +42,7 @@
 			text-align: center;
 			/*margin-right: right; */
 			margin-left: auto;
+			margin-top: auto;
 			font-family: Sans;
 			
 		}
