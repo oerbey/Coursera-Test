@@ -9,20 +9,24 @@
 		}
 
 		div#container {
-			background: gray;
+			background: none;
 			position: relative;
+			background-color: none;
+			/*
 			border-top: black solid 3px;
 			border-right: black solid 3px;
 			border-left: black solid 3px;
+			*/
 			margin-left: auto;
 			margin-right: auto;
 		}
 
 		p {
-			border-left: black solid 3px;
-			border-right: black solid 3px;
-			border-bottom: black solid 3px;
+			border-left: black solid 2px;
+			border-right: black solid 2px;
+			border-bottom: black solid 2px;
 			padding: 10px;
+			font-weight: normal;
 			background-color: grey;
 			width: 100%;
 			height: 150%;
@@ -33,18 +37,43 @@
 		}
 
 		menu {
-			border: 2px solid black;
+			border-top: 2px solid black;
+			border-right: 2px solid black;
+			border-left: 2px solid black;
 			padding: 2px;
-			background: aqua;
+			font-weight: bold;
+			background: grey;
 			position: relative;
-			width: 100px;
-			height: 100%;
+			width: 100%;
+			height: 50px;
 			text-align: center;
 			/*margin-right: right; */
 			margin-left: auto;
 			margin-top: auto;
 			font-family: Sans;
 			
+		}
+
+		div#type {
+			border: 2px solid black;
+			padding: 2px;
+			background: #E5DFB6;
+			font-size: 20px;
+			float: right;
+			width: 150px;
+			max-height: 30px;
+			top: 0px;
+			right: 0px;
+			bottom: 0px;
+			margin: 0px;
+			position: absolute;
+			text-align: center;
+
+		}
+
+		#n1 {
+			background-color: white:
+			color: black; 
 		}
 
 		/* Simple Responsibe Framework */
